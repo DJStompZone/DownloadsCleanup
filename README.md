@@ -26,5 +26,5 @@ The `--data` argument expects a JSON file produced by running [Get-ChildKinds](h
 This Cmdlet can be used to generate a list of all files in a given directory along with each file's associated `kind` property, like so:
 
 ```ps1
-Get-ChildKinds -DirectoryPath "~\Downloads\" -OutputType "json" | ConvertTo-Json | Out-File -FilePath ./DownloadKinds.json -Encoding utf8
+Get-ChildKinds -DirectoryPath "~\Downloads\" -OutputType "json" | Out-File -FilePath ./DownloadKinds.json -Encoding utf8
 ```
