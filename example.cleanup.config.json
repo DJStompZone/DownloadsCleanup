@@ -1,0 +1,27 @@
+{
+	"images": {
+		"path": "C:/Users/elon/Pictures",
+		"kinds": ["picture"]
+	},
+	"audio": {
+		"path": "C:/Users/elon/Music",
+		"kinds": ["music"]
+	},
+	"video": {
+		"path": "C:/Users/elon/Videos",
+		"kinds": ["video"]
+	}
+	"documents": {
+		"path": "C:/Users/elon/Documents",
+		"kinds": ["document"]
+	},
+	"downloads": {
+		"path": "C:/Users/elon/Downloads",
+		"kinds": ["none", "program"]
+	},
+	"directories": {
+		"notes": "Skip directories"
+		"path": null,
+		"kinds": ["folder"],
+	}
+}

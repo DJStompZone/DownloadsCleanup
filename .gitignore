@@ -1,0 +1,8 @@
+# Python cache directories
+__pycache__/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+cleanup.config.json
