@@ -20,3 +20,11 @@ Then you can run the script:
 ```bash
 python cleanup.py --help
 ```
+
+The `--data` argument expects a JSON file produced by running [Get-ChildKinds](https://github.com/DJStompZone/DownloadsCleanup/blob/main/Get-ChildKinds.ps1)
+
+This Cmdlet can be used to generate a list of all files in a given directory along with each file's associated `kind` property, like so:
+
+```ps1
+Get-ChildKinds -DirectoryPath "~\Downloads\" -OutputType "json" | ConvertTo-Json | Out-File -FilePath ./DownloadKinds.json -Encoding utf8
+```
